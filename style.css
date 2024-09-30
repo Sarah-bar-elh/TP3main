@@ -1,0 +1,70 @@
+/* Style global pour la page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Style du conteneur principal */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 20px 0;
+}
+
+/* Style pour les liens */
+a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #3498db;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
+}
+
+/* Effet au survol des liens */
+a:hover {
+    background-color: #3498db;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+/* Effet au clic des liens */
+a:active {
+    background-color: #2980b9;
+    border-color: #2980b9;
+    transform: scale(1);
+}
+
+/* Responsive pour petits écrans */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    a {
+        font-size: 1.2em;
+        padding: 8px 15px;
+    }
+}
